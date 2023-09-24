@@ -42,7 +42,9 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
-
+.bg-violet{
+  background-color: #804dee !important;
+}
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
@@ -204,4 +206,9 @@
 }
 .m-0{
   margin: 0 !important;
+}
+.bg-blur{
+  background-color: rgb(78, 77, 77);
+  /* filter: blur(8px); */
+  backdrop-filter: blur(8px);
 }

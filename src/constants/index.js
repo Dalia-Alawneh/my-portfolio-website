@@ -16,13 +16,16 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    dimentions,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    noimage,
+    knowledge_academy,
+    eduma,
 } from "../assets";
 
 export const navLinks = [
@@ -104,69 +107,49 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    // {
-    //     name: "figma",
-    //     icon: figma,
-    // },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Front End Developer | Node js Lecturer | Training and Mentor Team Leader",
+        company_name: "Knowledge Academy",
+        icon: knowledge_academy,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2022 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining landing web pages.",
+            "Front-end training.",
+            "Implementing projects with students and workshops.",
+            "Creating a weekly report about mentors and trainers and conducting meetings with them.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Front End Freelancer",
+        company_name: "",
+        icon: noimage,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "April - July 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining a web application for an electronics e-commerce website.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Implementing CI/CD using GitHub Actions workflow (Gulp) to minify CSS and uglify JavaScript."
         ],
     },
+    {
+        title: "Flutter Development Intern",
+        company_name: "Dimentions Info Tech",
+        icon: dimentions,
+        iconBg: "#E6DEDD",
+        date: "July - October 2022",
+        points: [
+            "Developing and maintaining mobile applications using Flutter.",
+            "Collaborating with teams and work with other developers to create high-quality products.",
+            "Implementing responsive design and ensuring compatibility with other mobile devices.",
+            "Dealing with APIs and implementing consistent design templates.",
+            "Working on real projects and implementing the design for various screens.",
+        ],
+    },
+
 ];
 
 const testimonials = [
@@ -198,25 +181,29 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Eduma",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Front end online courses template",
         tags: [
             {
-                name: "react",
+                name: "HTML5",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "CSS3",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: eduma,
+        source_code_link: "https://github.com/Dalia-Alawneh/Eduma",
     },
     {
         name: "Job IT",
