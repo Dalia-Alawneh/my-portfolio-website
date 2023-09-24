@@ -9,6 +9,11 @@ import close from "./close.svg";
 import linkedin from './linkedin.svg'
 import css from "./tech/css.png";
 import eduma from './eduma.png'
+import mentor from './mentor.png'
+import herobiz from './herobiz.png'
+import elecrta from './electra.png'
+import aroma from './aroma.png'
+import cloneportfolio from './cloneportfolio.png'
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -30,9 +35,7 @@ import dimentions from "./company/dimentions.ico";
 import noimage from "./company/noimage.png";
 import knowledge_academy from "./company/knowledge_academy.png";
 import daliaPic from './daliapic.jpg'
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -64,9 +67,11 @@ export {
   noimage,
   knowledge_academy,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   linkedin,
-  eduma
+  eduma,
+  mentor,
+  herobiz,
+  elecrta,
+  aroma,
+  cloneportfolio,
 };

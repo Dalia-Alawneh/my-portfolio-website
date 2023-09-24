@@ -1,6 +1,5 @@
 import React from 'react'
 import { styles } from '../styles.js'
-import ComputerCanvas from './canvas/Computers.jsx'
 import { motion } from 'framer-motion';
 import { daliaPic } from '../assets/index.js';
 import { github } from '../assets/index.js';
@@ -30,7 +29,9 @@ const Hero = () => {
             </div></a>
            
             </div>
-            <a href="" className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>see my resume</a>
+            <a
+            onClick={()=> window.open('https://drive.google.com/drive/folders/1e07-gIDwVXg-Yl95WFGOXFI_iPFGWH87?usp=sharing', "_blank")}
+            href=""  className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>see my resume</a>
           </div>
         </div>
         <div className=''>

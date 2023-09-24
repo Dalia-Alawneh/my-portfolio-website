@@ -13,19 +13,15 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
     dimentions,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     noimage,
     knowledge_academy,
     eduma,
+    aroma,
+    cloneportfolio,
+    mentor,
+    herobiz,
 } from "../assets";
 
 export const navLinks = [
@@ -183,18 +179,18 @@ const projects = [
     {
         name: "Eduma",
         description:
-            "Front end online courses template",
+            "Front end online courses template.",
         tags: [
             {
-                name: "HTML5",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "CSS3",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "bootstrap",
+                name: "bootstrap5",
                 color: "pink-text-gradient",
             },
             {
@@ -206,46 +202,91 @@ const projects = [
         source_code_link: "https://github.com/Dalia-Alawneh/Eduma",
     },
     {
-        name: "Job IT",
+        name: "Aroma",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Front End E-commerce project.",
         tags: [
             {
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
             },
             {
                 name: "css",
                 color: "pink-text-gradient",
             },
+            {
+                name: "animate css",
+                color: "green-text-gradient",
+            },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: aroma,
+        source_code_link: "https://github.com/Dalia-Alawneh/Aroma-shop-front-end-",
+    },
+    {
+        name: "Clone Portfolio",
+        description:
+            "Implemented with my students.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "jquery",
+                color: "green-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: cloneportfolio,
+        source_code_link: "https://github.com/Dalia-Alawneh/clone-portfolio",
+    },
+    {
+        name: "Mentor Website",
+        description:
+            "HTML5, CSS3 responsive template.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            
+            
+        ],
+        image: mentor,
+        source_code_link: "https://github.com/Dalia-Alawneh/mentor-website",
+    },
+    {
+        name: "Herobiz Website",
+        description:
+            "Bootstrap template.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: herobiz,
+        source_code_link: "https://github.com/Dalia-Alawneh/herobiz-website",
     },
 ];
 
