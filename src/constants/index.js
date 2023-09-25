@@ -22,6 +22,9 @@ import {
     cloneportfolio,
     mentor,
     herobiz,
+    moviedb,
+    movieworld,
+    crazygal,
 } from "../assets";
 
 export const navLinks = [
@@ -288,6 +291,73 @@ const projects = [
         image: herobiz,
         source_code_link: "https://github.com/Dalia-Alawneh/herobiz-website",
     },
+    {
+        name: "Movies world",
+        description:
+            "React js movie api and jwt auth and formik.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: movieworld,
+        source_code_link: "https://github.com/Dalia-Alawneh/react-app-formik-yup-jwt-movie-api",
+    },
+    {
+        name: "Movies App",
+        description:
+            "Dynamic React js application with movie api.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: moviedb,
+        source_code_link: "https://github.com/Dalia-Alawneh/Noxs",
+    },
+    {
+        name: "Crazy Gallary",
+        description:
+            "Dynamic Next js application with albums api.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: crazygal,
+        source_code_link: "https://github.com/Dalia-Alawneh/crazy-gallary-next-js-api",
+    },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

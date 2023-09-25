@@ -17,14 +17,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[260px]">
-          <img loading="lazy"src={image} 
-          alt={name} 
-          className="w-full h-full object-cover rounded-2xl" />
+          <img loading="lazy" src={image}
+            alt={name}
+            className="w-full h-full object-cover rounded-2xl" />
           <div className="absolute inset-0 flex justify-cenetr m-3 card-img_hover">
             <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            onClick={()=> window.open(source_code_link, "_blank")}
+              onClick={() => window.open(source_code_link, "_blank")}
             >
-              <img loading="lazy"src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
+              <img loading="lazy" src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
         <div className="mt-4 flex gap-2 flex-wrap">
           {
-            tags.map((tag)=>(
+            tags.map((tag) => (
               <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                 {tag.name}
               </p>
@@ -62,7 +62,9 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
+      
       <div className="mt-20 flex flex-wrap gap-7">
+
         {
           projects.map((project, index) => (
             <ProjectCard

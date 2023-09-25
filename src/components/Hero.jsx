@@ -18,24 +18,26 @@ const Hero = () => {
               <span className='text-[#915eff]'> Dalia</span></h1>
             <p className={`${styles.heroSubText}`}>I create web and mobile applications that are
               <br className='sm:block hidden' />user-friendly and functional, using the latest technologies and frameworks.</p>
-            <div className="contact-info my-8 flex gap-3 items-center">
-            <a href=""><div className="violet-gradient w-16 h-16 rounded-full hover:bg-[#804dee] transition-colors flex justify-center items-center cursor-pointer"
-            onClick={()=> window.open('https://github.com/Dalia-Alawneh', "_blank")}>
-              <img loading="lazy"src={github} alt="github" className="w-2/3 h-2/3 object-contain"/>
-            </div></a>
-            <a href=""><div className="violet-gradient w-16 h-16 hover:bg-[#804dee] transition-colors rounded-full flex justify-center items-center cursor-pointer"
-            onClick={()=> window.open('https://www.linkedin.com/in/dalia-alawneh', "_blank")}>
-              <img loading="lazy"src={linkedin} alt="linked in" className="w-2/3 h-2/3 object-contain"/>
-            </div></a>
-           
-            </div>
+            <div className="contact-info my-8 flex-col flex  gap-3 sm:items-start items-start">
+              <div className='flex gap-3 items-center'>
+              <a href=""><div className="violet-gradient w-16 h-16 rounded-full hover:bg-[#804dee] transition-colors flex justify-center items-center cursor-pointer"
+                onClick={() => window.open('https://github.com/Dalia-Alawneh', "_blank")}>
+                <img loading="lazy" src={github} alt="github" className="w-2/3 h-2/3 object-contain" />
+              </div></a>
+              <a href=""><div className="violet-gradient w-16 h-16 hover:bg-[#804dee] transition-colors rounded-full flex justify-center items-center cursor-pointer"
+                onClick={() => window.open('https://www.linkedin.com/in/dalia-alawneh', "_blank")}>
+                <img loading="lazy" src={linkedin} alt="linked in" className="w-2/3 h-2/3 object-contain" />
+              </div></a>
+              </div>
+
             <a
-            onClick={()=> window.open('https://drive.google.com/drive/folders/1e07-gIDwVXg-Yl95WFGOXFI_iPFGWH87?usp=sharing', "_blank")}
-            href=""  className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>see my resume</a>
+              onClick={() => window.open('https://drive.google.com/drive/folders/1e07-gIDwVXg-Yl95WFGOXFI_iPFGWH87?usp=sharing', "_blank")}
+              href="" className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>see my resume</a>
+            </div>
           </div>
         </div>
         <div className=''>
-          <img src={daliaPic} className='w-full border-8 shadow rounded-full' alt="" />
+          <img src={daliaPic} className='w-2/3 sm:w-full border-8 shadow rounded-full m-auto' alt="" />
         </div>
       </div>
       <div className='absolute bottom-0 w-full flex justify-center items-center'>

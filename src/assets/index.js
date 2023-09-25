@@ -12,8 +12,11 @@ import eduma from './eduma.png'
 import mentor from './mentor.png'
 import herobiz from './herobiz.png'
 import elecrta from './electra.png'
+import moviedb from './moviedb.png'
+import crazygal from './albums.png'
 import aroma from './aroma.png'
 import cloneportfolio from './cloneportfolio.png'
+import movieworld from './movieworld.png'
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -74,4 +77,7 @@ export {
   elecrta,
   aroma,
   cloneportfolio,
+  moviedb,
+  movieworld,
+  crazygal,
 };
