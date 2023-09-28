@@ -5,18 +5,19 @@ import { fadeIn, textVariant } from "../utils/motion.js"
 import { motion } from "framer-motion"
 import { styles } from "../styles.js"
 import { Tilt } from "react-tilt"
+import { useEffect, useState, useRef } from "react"
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring",
-      index * 0.5, 0.75)}>
+    <div>
       <Tilt options={{
         max: 45,
         scale: 1,
         speed: 450
       }}
+        
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[260px]">
+        <div className="relative w-full h-[260px]" >
           <img loading="lazy" src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl" />
@@ -42,10 +43,16 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           }
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   )
 }
 const Works = () => {
+  const [projectsType, setProjectsType] = useState(1)
+  const [updatedProjects, setUpdatedProjects] = useState(projects)
+  useEffect(() => {
+    setUpdatedProjects(projects.filter((project) => project.projectType === projectsType))
+  }, [projectsType])
+
   return (
     <>
       <motion.div variants={textVariant()} id='about'>
@@ -62,11 +69,31 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      
-      <div className="mt-20 flex flex-wrap gap-7">
-
+      <div className="tabs mt-8 flex gap-3">
+        <button onClick={() => setProjectsType(1)}
+          href=""
+          className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
+          HTML & CSS
+        </button>
+        <button onClick={() => setProjectsType(2)}
+          href=""
+          className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
+          HTML, CSS & JS
+        </button>
+        <button onClick={() => setProjectsType(3)}
+          href=""
+          className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
+          React JS
+        </button>
+        <button onClick={() => setProjectsType(4)}
+          href=""
+          className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
+          Next JS
+        </button>
+      </div>
+      <div className="mt-20 flex flex-wrap gap-7" >
         {
-          projects.map((project, index) => (
+          updatedProjects.map((project, index) => (
             <ProjectCard
               key={`project-${index}`}
               {...project}

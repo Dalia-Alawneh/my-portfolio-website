@@ -25,6 +25,7 @@ import {
     moviedb,
     movieworld,
     crazygal,
+    githubUserSearch,
 } from "../assets";
 
 export const navLinks = [
@@ -203,6 +204,7 @@ const projects = [
         ],
         image: eduma,
         source_code_link: "https://github.com/Dalia-Alawneh/Eduma",
+        projectType:2,
     },
     {
         name: "Aroma",
@@ -224,6 +226,7 @@ const projects = [
         ],
         image: aroma,
         source_code_link: "https://github.com/Dalia-Alawneh/Aroma-shop-front-end-",
+        projectType:1,
     },
     {
         name: "Clone Portfolio",
@@ -249,6 +252,33 @@ const projects = [
         ],
         image: cloneportfolio,
         source_code_link: "https://github.com/Dalia-Alawneh/clone-portfolio",
+        projectType:2,
+    },
+    {
+        name: "GitHub Profile Viewer",
+        description:
+            "Implemented with my students.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: githubUserSearch,
+        source_code_link: "https://github.com/Dalia-Alawneh/github-profile-viewer",
+        projectType:2,
     },
     {
         name: "Mentor Website",
@@ -268,6 +298,7 @@ const projects = [
         ],
         image: mentor,
         source_code_link: "https://github.com/Dalia-Alawneh/mentor-website",
+        projectType:1,
     },
     {
         name: "Herobiz Website",
@@ -290,6 +321,7 @@ const projects = [
         ],
         image: herobiz,
         source_code_link: "https://github.com/Dalia-Alawneh/herobiz-website",
+        projectType:1,
     },
     {
         name: "Movies world",
@@ -312,6 +344,7 @@ const projects = [
         ],
         image: movieworld,
         source_code_link: "https://github.com/Dalia-Alawneh/react-app-formik-yup-jwt-movie-api",
+        projectType:3,
     },
     {
         name: "Movies App",
@@ -334,6 +367,7 @@ const projects = [
         ],
         image: moviedb,
         source_code_link: "https://github.com/Dalia-Alawneh/Noxs",
+        projectType:3,
     },
     {
         name: "Crazy Gallary",
@@ -356,6 +390,7 @@ const projects = [
         ],
         image: crazygal,
         source_code_link: "https://github.com/Dalia-Alawneh/crazy-gallary-next-js-api",
+        projectType:4,
     },
 
 ];
