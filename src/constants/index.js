@@ -115,7 +115,7 @@ const experiences = [
         company_name: "Knowledge Academy",
         icon: knowledge_academy,
         iconBg: "#E6DEDD",
-        date: "May 2022 - present",
+        date: "May 2022 - Oct 2023",
         points: [
             "Developing and maintaining landing web pages.",
             "Front-end training.",
