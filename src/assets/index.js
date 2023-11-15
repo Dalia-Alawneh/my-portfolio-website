@@ -18,6 +18,12 @@ import crazygal from './albums.png'
 import aroma from './aroma.png'
 import cloneportfolio from './cloneportfolio.png'
 import movieworld from './movieworld.png'
+import productsCrud from './product-crud.png'
+import alerts from './alerts.png'
+import bagsShop from './bagsshop.png'
+import smElectra from './smelectra.png'
+import adviceGenerator from './adviceGenerator.png'
+import quize from './quize.png'
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -81,5 +87,11 @@ export {
   moviedb,
   movieworld,
   crazygal,
-  githubUserSearch
+  githubUserSearch,
+  productsCrud,
+  alerts,
+  bagsShop,
+  smElectra,
+  adviceGenerator,
+  quize,
 };

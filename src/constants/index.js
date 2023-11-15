@@ -26,6 +26,12 @@ import {
     movieworld,
     crazygal,
     githubUserSearch,
+    productsCrud,
+    alerts,
+    bagsShop,
+    smElectra,
+    adviceGenerator,
+    quize,
 } from "../assets";
 
 export const navLinks = [
@@ -111,6 +117,18 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Front End Freelancer | Trainer",
+        company_name: "Knowledge Academy",
+        icon: knowledge_academy,
+        iconBg: "#E6DEDD",
+        date: "Oct 2023 - Present",
+        points: [
+            "JavaScript mid-level course lucturer",
+            "Advanced JavaScript Training.",
+            "Workshops.",
+        ],
+    },
+    {
         title: "Front End Developer | Node js Lecturer | Training and Mentor Team Leader",
         company_name: "Knowledge Academy",
         icon: knowledge_academy,
@@ -183,7 +201,7 @@ const projects = [
     {
         name: "Eduma",
         description:
-            "Front end online courses template.",
+            "Front End online courses template.",
         tags: [
             {
                 name: "html",
@@ -204,6 +222,110 @@ const projects = [
         ],
         image: eduma,
         source_code_link: "https://github.com/Dalia-Alawneh/Eduma",
+        projectType:2,
+    },
+    {
+        name: "Bags Shopping Website",
+        description:
+            "Front End online bags shopping template.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "json-server",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: bagsShop,
+        source_code_link: "https://github.com/Dalia-Alawneh/bag-shop",
+        projectType:2,
+    },
+    {
+        name: "SM Electra E-commerce",
+        description:
+            "Real Electronics online E-commerce.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "bootstrap5",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: smElectra,
+        source_code_link: "https://smelctro.com/ar",
+        projectType:2,
+    },
+    {
+        name: "Advice Generator",
+        description:
+            "Random Advice Generator - Frontend Mentor.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: adviceGenerator,
+        source_code_link: "https://github.com/Dalia-Alawneh/advice-generator",
+        projectType:2,
+    },
+    {
+        name: "Quize App",
+        description:
+            "Generate Certificate and Social media share.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: quize,
+        source_code_link: "https://github.com/Dalia-Alawneh/advice-generator",
         projectType:2,
     },
     {
@@ -322,6 +444,56 @@ const projects = [
         image: herobiz,
         source_code_link: "https://github.com/Dalia-Alawneh/herobiz-website",
         projectType:1,
+    },
+    {
+        name: "Product CRUD",
+        description:
+            "React - TypeScript with pure form validation.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "headlessUI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwindCss",
+                color: "green-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "pink-text-gradient",
+            },
+            
+        ],
+        image: productsCrud,
+        source_code_link: "https://github.com/Dalia-Alawneh/products-crud-react-typescript",
+        projectType:3,
+    },
+    {
+        name: "Alerts",
+        description:
+            "Alerts React Project",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwindCss",
+                color: "green-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "pink-text-gradient",
+            },
+            
+        ],
+        image: alerts,
+        source_code_link: "https://github.com/Dalia-Alawneh/react-ts-alerts-app",
+        projectType:3,
     },
     {
         name: "Movies world",
