@@ -1,4 +1,3 @@
-import React from 'react'
 import { styles } from '../styles.js'
 import { motion } from 'framer-motion';
 import { daliaPic } from '../assets/index.js';
@@ -6,7 +5,7 @@ import { github } from '../assets/index.js';
 import { linkedin } from '../assets/index.js';
 const Hero = () => {
   return (
-    <section className='flex w-full flex-col relative justify-center h-screen mx-auto'>
+    <section className='hero flex w-full flex-col relative justify-center h-screen mx-auto'>
       <div className={`${styles.paddingX} flex md:flex-row flex-col-reverse items-center`}>
         <div className="max-w-7xl mx-auto flex flex-row items-start gap-5">
           <div className="flex flex-col justify-center items-center mt-5">
@@ -36,12 +35,12 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className=''>
+        <div className='profile-image'>
           <img src={daliaPic} className='w-2/3 sm:w-full border-8 shadow rounded-full m-auto' alt="" />
         </div>
       </div>
       <div className='absolute bottom-0 w-full flex justify-center items-center'>
-        <a href="#about">
+        <a href="#about" className='animated-button'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{

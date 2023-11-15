@@ -5,7 +5,7 @@ import { close, logo, menu } from '../assets/index.js'
 import { navLinks } from '../constants/index.js'
 const Navbar = () => {
   const [active, setActive] = useState("")
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(true)
   const [scrolling, setScrolling] = useState(false);
 
   const handleScroll = () => {

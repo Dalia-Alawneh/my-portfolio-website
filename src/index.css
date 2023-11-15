@@ -212,3 +212,16 @@
   /* filter: blur(8px); */
   backdrop-filter: blur(8px);
 }
+
+@media (max-height:660px) {
+  .animated-button{
+    display: none;
+  }
+  .profile-image{
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  .hero {
+    margin-bottom: 8rem;
+  }
+}

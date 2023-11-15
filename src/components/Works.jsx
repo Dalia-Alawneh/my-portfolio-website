@@ -69,7 +69,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <div className="tabs mt-8 flex gap-3">
+      <div className="tabs mt-8 flex gap-3 flex-wrap">
         <button onClick={() => setProjectsType(1)}
           href=""
           className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
