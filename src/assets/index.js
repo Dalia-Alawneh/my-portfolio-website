@@ -25,6 +25,11 @@ import smElectra from './smelectra.png'
 import adviceGenerator from './adviceGenerator.png'
 import quize from './quize.png'
 import auth from './auth.png'
+import bmi from './flutter-bmi.png'
+import zoom from './flutter-zoom.jpg'
+import bubble from './flutter-bubble.png'
+import chat from './flutter-chat.png'
+import smg from './smg.png'
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -96,4 +101,9 @@ export {
   adviceGenerator,
   quize,
   auth,
+  bmi,
+  zoom,
+  bubble,
+  chat,
+  smg,
 };

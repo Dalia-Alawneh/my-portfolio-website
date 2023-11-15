@@ -22,11 +22,11 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             alt={name}
             className="w-full h-full object-cover rounded-2xl" />
           <div className="absolute inset-0 flex justify-cenetr m-3 card-img_hover">
-            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            {source_code_link && <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(source_code_link, "_blank")}
             >
               <img loading="lazy" src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
-            </div>
+            </div>}
           </div>
         </div>
         <div className="mt-5">
@@ -89,6 +89,11 @@ const Works = () => {
           href=""
           className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
           Next JS
+        </button>
+        <button onClick={() => setProjectsType(5)}
+          href=""
+          className='violet-gradient p-2 capitalize rounded px-4 hover:bg-[#804dee] transition-colors'>
+          Flutter
         </button>
       </div>
       <div className="mt-20 flex flex-wrap gap-7" >

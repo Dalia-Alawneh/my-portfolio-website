@@ -33,6 +33,11 @@ import {
     adviceGenerator,
     quize,
     auth,
+    bmi,
+    zoom,
+    bubble,
+    chat,
+    smg,
 } from "../assets";
 
 export const navLinks = [
@@ -586,6 +591,117 @@ const projects = [
         image: crazygal,
         source_code_link: "https://github.com/Dalia-Alawneh/crazy-gallary-next-js-api",
         projectType:4,
+    },
+    {
+        name: "Zoom App",
+        description:
+            "Flutter cloning Zoom App.",
+        tags: [
+            {
+                name: "flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "dart",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "googleAuth",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: zoom,
+        source_code_link: "https://github.com/Dalia-Alawneh/zoom-clone",
+        projectType:5,
+    },
+    {
+        name: "BMI Caculator",
+        description:
+            "Flutter App calculate BMI.",
+        tags: [
+            {
+                name: "flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "dart",
+                color: "pink-text-gradient",
+            },
+            
+        ],
+        image: bmi,
+        source_code_link: "https://github.com/Dalia-Alawneh/BMI-Calculator",
+        projectType:5,
+    },
+    {
+        name: "Flash Chat",
+        description:
+            "Chat App with Auth using Firebase cloud.",
+        tags: [
+            {
+                name: "flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "dart",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            },
+            
+        ],
+        image: chat,
+        source_code_link: "https://github.com/Dalia-Alawneh/chat-app",
+        projectType:5,
+    },
+    {
+        name: "Smart Medical Guidance",
+        description:
+            "Clinic Prediction, appointments reservation.",
+        tags: [
+            {
+                name: "flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "google-map",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "flask-api",
+                color: "blue-text-gradient",
+            },
+            
+        ],
+        image: smg,
+        source_code_link: "",
+        projectType:5,
+    },
+    {
+        name: "Bubble Trouble",
+        description:
+            "Flutter App Bubble Game.",
+        tags: [
+            {
+                name: "flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "dart",
+                color: "pink-text-gradient",
+            },
+            
+        ],
+        image: bubble,
+        source_code_link: "https://github.com/Dalia-Alawneh/Bubble-trouble",
+        projectType:5,
     },
 
 ];
