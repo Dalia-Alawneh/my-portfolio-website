@@ -24,6 +24,7 @@ import bagsShop from './bagsshop.png'
 import smElectra from './smelectra.png'
 import adviceGenerator from './adviceGenerator.png'
 import quize from './quize.png'
+import auth from './auth.png'
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -94,4 +95,5 @@ export {
   smElectra,
   adviceGenerator,
   quize,
+  auth,
 };

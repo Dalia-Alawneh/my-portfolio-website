@@ -32,6 +32,7 @@ import {
     smElectra,
     adviceGenerator,
     quize,
+    auth,
 } from "../assets";
 
 export const navLinks = [
@@ -326,6 +327,28 @@ const projects = [
         ],
         image: quize,
         source_code_link: "https://github.com/Dalia-Alawneh/advice-generator",
+        projectType:2,
+    },
+    {
+        name: "Dummy Auth Project",
+        description:
+            "Used Dummy json api, store token in cookies.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: auth,
+        source_code_link: "https://github.com/Dalia-Alawneh/auth-dummy-project",
         projectType:2,
     },
     {
