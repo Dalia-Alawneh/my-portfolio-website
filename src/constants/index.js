@@ -38,6 +38,8 @@ import {
     bubble,
     chat,
     smg,
+    restaurent,
+    dclick,
 } from "../assets";
 
 export const navLinks = [
@@ -122,6 +124,17 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+        title: "Front End Engineer",
+        company_name: "Double Click",
+        icon: dclick,
+        iconBg: "#E6DEDD",
+        date: "Jan 2024 - Present",
+        points: [
+            "React Developement For Jeel Portal",
+            "Unit Testing",
+        ],
+    },
     {
         title: "Front End Freelancer | Trainer",
         company_name: "Knowledge Academy",
@@ -228,7 +241,7 @@ const projects = [
         ],
         image: eduma,
         source_code_link: "https://github.com/Dalia-Alawneh/Eduma",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "Bags Shopping Website",
@@ -258,7 +271,7 @@ const projects = [
         ],
         image: bagsShop,
         source_code_link: "https://github.com/Dalia-Alawneh/bag-shop",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "SM Electra E-commerce",
@@ -284,7 +297,7 @@ const projects = [
         ],
         image: smElectra,
         source_code_link: "https://smelctro.com/ar",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "Advice Generator",
@@ -310,7 +323,7 @@ const projects = [
         ],
         image: adviceGenerator,
         source_code_link: "https://github.com/Dalia-Alawneh/advice-generator",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "Quize App",
@@ -332,7 +345,7 @@ const projects = [
         ],
         image: quize,
         source_code_link: "https://github.com/Dalia-Alawneh/advice-generator",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "Dummy Auth Project",
@@ -354,7 +367,7 @@ const projects = [
         ],
         image: auth,
         source_code_link: "https://github.com/Dalia-Alawneh/auth-dummy-project",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "Aroma",
@@ -376,7 +389,7 @@ const projects = [
         ],
         image: aroma,
         source_code_link: "https://github.com/Dalia-Alawneh/Aroma-shop-front-end-",
-        projectType:1,
+        projectType: 1,
     },
     {
         name: "Clone Portfolio",
@@ -402,7 +415,7 @@ const projects = [
         ],
         image: cloneportfolio,
         source_code_link: "https://github.com/Dalia-Alawneh/clone-portfolio",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "GitHub Profile Viewer",
@@ -428,7 +441,7 @@ const projects = [
         ],
         image: githubUserSearch,
         source_code_link: "https://github.com/Dalia-Alawneh/github-profile-viewer",
-        projectType:2,
+        projectType: 2,
     },
     {
         name: "Mentor Website",
@@ -443,12 +456,12 @@ const projects = [
                 name: "css",
                 color: "pink-text-gradient",
             },
-            
-            
+
+
         ],
         image: mentor,
         source_code_link: "https://github.com/Dalia-Alawneh/mentor-website",
-        projectType:1,
+        projectType: 1,
     },
     {
         name: "Herobiz Website",
@@ -467,11 +480,38 @@ const projects = [
                 name: "bootstrap5",
                 color: "green-text-gradient",
             },
-            
+
         ],
         image: herobiz,
         source_code_link: "https://github.com/Dalia-Alawneh/herobiz-website",
-        projectType:1,
+        projectType: 1,
+    },
+    {
+        name: "Restaurent app",
+        description:
+            "React - TypeScript admin/client/cashier.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "headlessUI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwindCss",
+                color: "green-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "pink-text-gradient",
+            },
+
+        ],
+        image: restaurent,
+        source_code_link: "https://github.com/Dalia-Alawneh/restaurant-app",
+        projectType: 3,
     },
     {
         name: "Product CRUD",
@@ -494,11 +534,11 @@ const projects = [
                 name: "typescript",
                 color: "pink-text-gradient",
             },
-            
+
         ],
         image: productsCrud,
         source_code_link: "https://github.com/Dalia-Alawneh/products-crud-react-typescript",
-        projectType:3,
+        projectType: 3,
     },
     {
         name: "Alerts",
@@ -517,11 +557,11 @@ const projects = [
                 name: "typescript",
                 color: "pink-text-gradient",
             },
-            
+
         ],
         image: alerts,
         source_code_link: "https://github.com/Dalia-Alawneh/react-ts-alerts-app",
-        projectType:3,
+        projectType: 3,
     },
     {
         name: "Movies world",
@@ -540,11 +580,11 @@ const projects = [
                 name: "bootstrap5",
                 color: "green-text-gradient",
             },
-            
+
         ],
         image: movieworld,
         source_code_link: "https://github.com/Dalia-Alawneh/react-app-formik-yup-jwt-movie-api",
-        projectType:3,
+        projectType: 3,
     },
     {
         name: "Movies App",
@@ -563,11 +603,11 @@ const projects = [
                 name: "bootstrap5",
                 color: "green-text-gradient",
             },
-            
+
         ],
         image: moviedb,
         source_code_link: "https://github.com/Dalia-Alawneh/Noxs",
-        projectType:3,
+        projectType: 3,
     },
     {
         name: "Crazy Gallary",
@@ -586,11 +626,11 @@ const projects = [
                 name: "bootstrap5",
                 color: "green-text-gradient",
             },
-            
+
         ],
         image: crazygal,
         source_code_link: "https://github.com/Dalia-Alawneh/crazy-gallary-next-js-api",
-        projectType:4,
+        projectType: 4,
     },
     {
         name: "Zoom App",
@@ -609,11 +649,11 @@ const projects = [
                 name: "googleAuth",
                 color: "green-text-gradient",
             },
-            
+
         ],
         image: zoom,
         source_code_link: "https://github.com/Dalia-Alawneh/zoom-clone",
-        projectType:5,
+        projectType: 5,
     },
     {
         name: "BMI Caculator",
@@ -628,11 +668,11 @@ const projects = [
                 name: "dart",
                 color: "pink-text-gradient",
             },
-            
+
         ],
         image: bmi,
         source_code_link: "https://github.com/Dalia-Alawneh/BMI-Calculator",
-        projectType:5,
+        projectType: 5,
     },
     {
         name: "Flash Chat",
@@ -651,11 +691,11 @@ const projects = [
                 name: "firebase",
                 color: "green-text-gradient",
             },
-            
+
         ],
         image: chat,
         source_code_link: "https://github.com/Dalia-Alawneh/chat-app",
-        projectType:5,
+        projectType: 5,
     },
     {
         name: "Smart Medical Guidance",
@@ -678,11 +718,11 @@ const projects = [
                 name: "flask-api",
                 color: "blue-text-gradient",
             },
-            
+
         ],
         image: smg,
         source_code_link: "",
-        projectType:5,
+        projectType: 5,
     },
     {
         name: "Bubble Trouble",
@@ -697,11 +737,11 @@ const projects = [
                 name: "dart",
                 color: "pink-text-gradient",
             },
-            
+
         ],
         image: bubble,
         source_code_link: "https://github.com/Dalia-Alawneh/Bubble-trouble",
-        projectType:5,
+        projectType: 5,
     },
 
 ];

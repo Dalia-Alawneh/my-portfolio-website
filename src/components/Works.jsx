@@ -5,7 +5,7 @@ import { fadeIn, textVariant } from "../utils/motion.js"
 import { motion } from "framer-motion"
 import { styles } from "../styles.js"
 import { Tilt } from "react-tilt"
-import { useEffect, useState, useRef } from "react"
+import { useEffect, useState } from "react"
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <div>

@@ -51,7 +51,8 @@ import dimentions from "./company/dimentions.ico";
 import noimage from "./company/noimage.png";
 import knowledge_academy from "./company/knowledge_academy.png";
 import daliaPic from './daliapic.jpg'
-
+import restaurent from './restuarent.png'
+import dclick from './company/dclick.png'
 
 export {
   logo,
@@ -106,4 +107,6 @@ export {
   bubble,
   chat,
   smg,
+  restaurent,
+  dclick,
 };
